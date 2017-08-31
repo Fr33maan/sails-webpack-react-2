@@ -1,0 +1,54 @@
+
+
+.header {
+  background-color: #c3f1f7;
+  margin-bottom: 7px;
+}
+
+.logo h1 {
+  text-align: center;
+  font-size : 22px;
+  font-family: Impact, Charcoal, sans-serif;
+  margin: 5px 0;
+}
+
+.logo div {
+  text-align: center;
+}
+
+.logo div img {
+  height: 50px;
+}
+
+.menu div {
+  margin : 0 5px;
+  padding: 0px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu a {
+  display: inline-block;
+  color : #f7c528;
+  width: 80%;
+  margin: 0 10%;
+  height: 2em;
+  line-height: 2em;
+  text-align : center;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1378c6+0,04a0e4+100 */
+  background: #1378c6; /* Old browsers */
+  background: -moz-linear-gradient(top,  #1378c6 0%, #04a0e4 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #1378c6 0%,#04a0e4 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #1378c6 0%,#04a0e4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1378c6', endColorstr='#04a0e4',GradientType=0 ); /* IE6-9 */
+  border-radius: 8px;
+}
+
+.menu a:hover {
+  box-shadow: inset -2px -2px 3px 0px #656565;
+}

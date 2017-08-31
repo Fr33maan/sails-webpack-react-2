@@ -1,0 +1,9 @@
+
+// This is necessary to avoid issue where loader does not find fonts
+// https://github.com/jtangelder/sass-loader/issues/40
+$bootstrap-sass-asset-helper: true;
+
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "~react-bootstrap-switch/dist/css/bootstrap3/react-bootstrap-switch.css";
+@import "Elements";
+@import "Bootstrap";
